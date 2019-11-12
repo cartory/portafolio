@@ -31,6 +31,7 @@ h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
+    color: white;
     /* text-transform: capitalize;
     text-decoration: dashed; */
 }
@@ -39,14 +40,34 @@ h1 {
     -SELECTOR DESCENDENTE
     body header div nav ol li a
 */
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
 
 /*
     -SELECTOR DE CLASE
     .link
 */
 
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+
 .hero {
     height: 300px;
+    background-image: url('../../images/hero.jpg');
+    background-color: #1b2127;
+    background-size: 500px, 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .project-details {
