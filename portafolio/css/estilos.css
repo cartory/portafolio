@@ -39,6 +39,15 @@ h1 {
     text-decoration: dashed; */
 }
 
+h2 {
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 ol, ul {
     margin: 0;
     padding: 0;
@@ -119,10 +128,37 @@ h1 strong {
     border-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-course, 
+.project-date,
+.project-url {
+    margin: 10px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* .project-date {
+    margin: 10px 0;
+} */
+
+.project-tittle {
+    font-size: 30px;   
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .project-details {
@@ -170,6 +206,7 @@ h1 strong {
 
 .portfolio {
     background: #fafafa;
+    padding: 20px;
     /* background: red; */
 }
 
