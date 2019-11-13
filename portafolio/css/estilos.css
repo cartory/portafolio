@@ -42,6 +42,7 @@ h1 {
     -SELECTOR DESCENDENTE
     body header div nav ol li a
 */
+
 .header a {
     color: white;
     text-decoration: none;
@@ -50,7 +51,6 @@ h1 {
 h1 strong {
     color: #026fff;
 }
-
 
 /*
     -SELECTOR DE CLASE
@@ -62,7 +62,6 @@ h1 strong {
     color: white;
 }
 
-
 .hero {
     height: 300px;
     background-image: url('../../images/hero.jpg');
@@ -70,11 +69,6 @@ h1 strong {
     background-size: 500px, 300px;
     background-repeat: no-repeat;
     background-position-x: right;
-}
-
-.portfolio {
-    background: #fafafa;
-    /* background: red; */
 }
 
 .project {
@@ -101,9 +95,27 @@ h1 strong {
     width: 500px;
 }
 
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:  column; */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin: 5px;
+    flex-shrink: 0;
+}
 /*
     -SELECTOR DE ID
     #portafolio
 */
+
+.portfolio {
+    background: #fafafa;
+    /* background: red; */
+}
 
 /* #portafolio*/
